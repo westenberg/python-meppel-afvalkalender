@@ -272,13 +272,13 @@ async def test_update(event_loop, aresponses):
                         },
                         {
                             "pickupDates": ["2019-07-21T00:00:00"],
-                            "_pickupTypeText": "GREY",
+                            "_pickupTypeText": "VET",
                         },
                         {
                             "pickupDates": ["2019-07-22T00:00:00"],
                             "_pickupTypeText": "PAPER",
                         },
-                        {"pickupDates": [], "_pickupTypeText": "PACKAGES"},
+                        {"pickupDates": [], "_pickupTypeText": "PLASTIC"},
                     ]
                 }
             ),
